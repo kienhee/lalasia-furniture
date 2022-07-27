@@ -1,0 +1,45 @@
+.heading {
+
+
+    &-small {
+        font-weight: 600;
+        text-transform: capitalize;
+    }
+
+    &-large {
+        text-transform: capitalize;
+        max-width: 545px;
+        font-size: 44px;
+        font-weight: 600;
+        margin-bottom: 50px;
+    }
+}
+
+.center {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.left {
+    text-align: left;
+    margin-right: auto;
+}
+
+.right {
+    text-align: right;
+    margin-left: auto;
+}
+
+@media only screen and (max-width: 46.188rem) {
+    .heading {
+
+        &-small {
+            font-size: 0.778rem; //14
+        }
+
+        &-large {
+            font-size: 1.333rem; //24x
+            margin-bottom: 16px;
+        }
+    }
+}

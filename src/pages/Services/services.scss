@@ -1,0 +1,48 @@
+@import "../../assets/css/variable";
+
+.services {
+    &__img {
+        padding-bottom: 50px;
+        margin-bottom: 50px;
+        border-bottom: 2px solid #F3F3F3;
+    }
+
+    &__container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+        grid-gap: 50px;
+    }
+
+    &__item {
+        &-number {
+            font-size: 3.556rem; //64
+            font-weight: 700;
+            color: $main-color;
+        }
+
+        &-name {
+            font-size: 1.333rem; //24
+            font-weight: bold;
+        }
+    }
+}
+
+@media only screen and (max-width: 46.188rem) {
+    .services {
+
+
+        &__item {
+            &-number {
+                font-size: 1.778rem; //24
+            }
+
+            &-name {
+                font-size: 0.778rem; //14
+                font-weight: bold;
+            }
+            &-description {
+                font-size: 0.667rem;
+            }
+        }
+    }
+}

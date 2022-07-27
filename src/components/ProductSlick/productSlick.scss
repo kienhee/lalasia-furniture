@@ -1,0 +1,124 @@
+.product-slick {
+    margin-bottom: 180px;
+
+
+    &__container {
+        width: 100%;
+
+    }
+
+    &__item {
+        background-color: #fff;
+
+        &-img {
+            display: block;
+            outline: none;
+            height: 360px;
+            margin-bottom: 26px;
+            cursor: grabbing;
+        }
+
+        &-content {
+            padding: 10px;
+        }
+
+        &-category {
+            text-transform: capitalize;
+            font-weight: 500;
+            margin-bottom: 15px;
+        }
+
+        &-category:hover {
+            text-decoration: underline;
+        }
+
+        &-name {
+            font-size: 26px;
+            font-weight: 600;
+
+
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 1;
+            /* number of lines to slick */
+            line-clamp: 1;
+            -webkit-box-orient: vertical;
+
+        }
+
+        &-description {
+            font-size: 16px;
+            font-weight: 300;
+            margin-bottom: 20px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 1;
+            /* number of lines to slick */
+            line-clamp: 1;
+            -webkit-box-orient: vertical;
+        }
+
+        &-price {
+            font-weight: 600;
+            font-size: 1.333rem;
+        }
+    }
+}
+
+// .slick-slide {
+//     margin: 0 10px;
+// }
+
+// .slick-list {
+//     margin: 0 -10px;
+// }
+@media only screen and (min-width:46.25rem) and (max-width: 63.938rem) {
+    .product-slick {
+        &__item {
+            &-img {
+                height: 260px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 46.188rem) {
+    .product-slick {
+        margin-bottom: 100px;
+
+        &__item {
+            height: auto;
+
+            &-img {
+                height: 190px;
+                margin-bottom: 14px;
+            }
+
+            &-content {
+                padding: 5px;
+
+            }
+
+            &-category {
+                font-size: 12px;
+                margin-bottom: 10px;
+            }
+
+            &-name {
+                font-size: 16px;
+
+            }
+
+            &-description {
+                font-size: 14px;
+                margin-bottom: 10px;
+            }
+
+            &-price {
+                font-size: 16px;
+            }
+        }
+    }
+}

@@ -1,0 +1,30 @@
+.title-large {
+    text-align: center;
+    margin-bottom: 2.778rem;
+
+    &__heading {
+        font-size: 3.556rem; //64
+        font-weight: 700;
+    }
+
+    &__content {
+        max-width: 600px;
+        margin: 0 auto;
+
+    }
+}
+
+@media only screen and (max-width: 46.188rem) {
+    .title-large {
+        margin-bottom: 1.667rem;
+
+        &__heading {
+            font-size: 1.444rem; //26
+
+        }
+
+        &__content {
+            font-size: 0.778rem;
+        }
+    }
+}
