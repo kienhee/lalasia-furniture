@@ -42,7 +42,7 @@ export default function Layout() {
                                 </Link>
                             </li>
                             <li className="navbar__item">
-                                <Link to="/product" className="navbar__link">
+                                <Link to="/products" className="navbar__link">
                                     Products
                                 </Link>
                             </li>

@@ -4,8 +4,9 @@ import "slick-carousel/slick/slick-theme.css";
 import "./assets/css/App.scss";
 import Layout from "./components/layout";
 import Home from "./pages/Home";
-import Product from "./pages/Product"
-import Services from "./pages/Services"
+import Product from "./pages/Product";
+import Services from "./pages/Services";
+import ProductDetail from "./pages/ProductDetail";
 function App() {
     return (
         <div className="App">
@@ -13,7 +14,8 @@ function App() {
                 <Routes>
                     <Route path="/" element={<Layout />}>
                         <Route index element={<Home />} />
-                        <Route path="product" element={<Product />} />
+                        <Route path="products" element={<Product />} />
+                        <Route path="products/:id" element={<ProductDetail />} />
                         <Route path="services" element={<Services />} />
                         {/* <Route path="*" element={<NoPage />} /> */}
                     </Route>

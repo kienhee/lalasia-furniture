@@ -2,11 +2,12 @@ import React from "react";
 import Slider from "react-slick";
 
 import "./productSlick.scss";
-import Heading from "../Heading";
+
 import img1 from "../../assets/images/product/icon1.png";
 import img2 from "../../assets/images/product/icon2.png";
 import img4 from "../../assets/images/product/icon4.png";
 import img5 from "../../assets/images/product/icon5.png";
+import { Link } from "react-router-dom";
 export default function ProductSlick() {
     const settings = {
         dots: true,
@@ -82,32 +83,24 @@ export default function ProductSlick() {
     return (
         <>
             <section className="product-slick">
-                <Heading
-                    headingSmall="Product"
-                    headingLarge="Our popular product"
-                    align="center"
-                />
-                <p className="paragraph-color description-center ">
-                    Pellentesque etiam blandit in tincidunt at donec. Eget ipsum
-                    dignissim placerat nisi, adipiscing mauris non purus
-                    parturient.
-                </p>
-
                 <Slider {...settings}>
                     {fakeProductItems.map((product) => (
                         <div className="product-slick__item" key={product.id}>
-                            <a href="/" className="product-slick__item-img">
+                            <Link
+                                to="/products/id"
+                                className="product-slick__item-img"
+                            >
                                 <img src={product.image} alt="product item" />
-                            </a>
+                            </Link>
                             <div className="product-slick__item-content">
                                 <a
-                                    href="/"
+                                    href="/products/id"
                                     className="product-slick__item-category paragraph-color"
                                 >
                                     {product.category}
                                 </a>
                                 <a
-                                    href="/"
+                                    href="/products/id"
                                     className="product-slick__item-name"
                                 >
                                     {product.name}

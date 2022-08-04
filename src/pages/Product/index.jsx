@@ -159,17 +159,23 @@ export default function Product() {
             <div className="layout-product container">
                 {fakeProductItems.map((item) => (
                     <div className="layout-product__item" key={item.id}>
-                        <a href="/" className="layout-product__item-img">
+                        <a
+                            href="/products/id"
+                            className="layout-product__item-img"
+                        >
                             <img src={item.image} alt="product item" />
                         </a>
                         <div className="layout-product__item-content">
                             <a
-                                href="/"
+                                href="/products/id"
                                 className="layout-product__item-category paragraph-color"
                             >
                                 {item.category}
                             </a>
-                            <a href="/" className="layout-product__item-name">
+                            <a
+                                href="/products/id"
+                                className="layout-product__item-name"
+                            >
                                 {item.name}
                             </a>
                             <p className="layout-product__item-description paragraph-color">

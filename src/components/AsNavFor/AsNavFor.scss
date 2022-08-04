@@ -1,0 +1,71 @@
+.as-nav-for {
+    & div {
+        outline: none;
+    }
+
+    &__first-slider {
+        width: 100%;
+        height: 600px;
+        object-fit: cover;
+    }
+
+    &__second-slider {
+
+        height: 130px;
+    }
+}
+
+
+.as-nav-for .slick-prev:before,
+.slick-next:before {
+    color: black;
+    font-size: 20px;
+}
+
+
+
+.as-nav-for .slick-prev {
+    left: 10px;
+    z-index: 1;
+}
+
+.as-nav-for .slick-next {
+    right: 10px;
+    z-index: 1;
+}
+
+@media only screen and (min-width:46.25rem) and (max-width: 63.938rem) {
+    .as-nav-for {
+
+
+        &__first-slider {
+
+            height: 350px;
+
+        }
+
+        &__second-slider {
+
+            height: 100px;
+        }
+    }
+}
+
+@media only screen and (max-width: 46.188rem) {
+    .as-nav-for {
+
+
+        &__first-slider {
+
+            height: 350px;
+
+        }
+
+        &__second-slider {
+
+            height: 100px;
+        }
+    }
+
+
+}
