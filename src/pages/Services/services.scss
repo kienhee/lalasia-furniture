@@ -27,6 +27,27 @@
     }
 }
 
+@media only screen and (min-width:46.25rem) and (max-width: 63.938rem) {
+    .services {
+
+        &__item {
+            &-number {
+                font-size: 2.556rem; //64
+
+            }
+
+            &-name {
+                font-size: 1rem; //24
+
+            }
+
+            &-description {
+                font-size: 16px;
+            }
+        }
+    }
+}
+
 @media only screen and (max-width: 46.188rem) {
     .services {
 
@@ -38,8 +59,9 @@
 
             &-name {
                 font-size: 0.778rem; //14
-                font-weight: bold;
+
             }
+
             &-description {
                 font-size: 0.667rem;
             }

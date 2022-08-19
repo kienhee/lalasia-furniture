@@ -122,19 +122,31 @@ export default function Product() {
                 <Slider {...settings}>
                     <div className="slide-product__item">
                         <img
-                            src="https://images.unsplash.com/photo-1558211583-d26f610c1eb1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1106&q=80"
+                            src="https://images.unsplash.com/photo-1618221381711-42ca8ab6e908?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80"
                             alt="product"
                         />
                     </div>
                     <div className="slide-product__item">
                         <img
-                            src="https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                            src="https://images.unsplash.com/photo-1615876063860-d971f6dca5dc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80"
                             alt="product"
                         />
                     </div>
                     <div className="slide-product__item">
                         <img
-                            src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                            src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1700&q=80"
+                            alt="product"
+                        />
+                    </div>
+                    <div className="slide-product__item">
+                        <img
+                            src="https://images.unsplash.com/photo-1616137303871-05ce745f9cdb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80"
+                            alt="product"
+                        />
+                    </div>
+                    <div className="slide-product__item">
+                        <img
+                            src="https://images.unsplash.com/photo-1618219740975-d40978bb7378?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1700&q=80"
                             alt="product"
                         />
                     </div>
@@ -142,12 +154,12 @@ export default function Product() {
             </div>
             <div className="product__filter container">
                 <div className="input__search">
-                    <i class="bx bx-search text-secondary"></i>
+                    <i className="bx bx-search text-secondary"></i>
                     <input type="text" placeholder="Search property" />
                     <button className="btn btn-primary">Find&nbsp;Now</button>
                 </div>
                 <button className="btn-filter">
-                    <i class="bx bx-filter-alt"></i>
+                    <i className="bx bx-filter-alt"></i>
                     Filter
                 </button>
             </div>

@@ -127,6 +127,11 @@ body {
     -ms-overflow-style: none;
     scrollbar-width: none;
     overflow-y: scroll;
+
+}
+
+main {
+    margin-top: 100px;
 }
 
 body::-webkit-scrollbar {

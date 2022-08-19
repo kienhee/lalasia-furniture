@@ -58,7 +58,7 @@ export default function index() {
                     <div className="services__img">
                         <img
                             src={require("../../assets/images/service.png")}
-                            alt="Image"
+                            alt="nice"
                         />
                     </div>
                     <div className="services__container">

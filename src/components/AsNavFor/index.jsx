@@ -40,32 +40,44 @@ export default class AsNavFor extends Component {
                 >
                     <div className="as-nav-for__first-slider">
                         <img
-                            src="https://images.unsplash.com/photo-1659542226430-006adbd62f0f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80"
-                            alt=""
+                            src="https://images.unsplash.com/photo-1592078615290-033ee584e267?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
+                            alt="product"
                         />
                     </div>
                     <div className="as-nav-for__first-slider">
                         <img
-                            src="https://images.unsplash.com/photo-1659535635086-18d69d56d0a4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80"
-                            alt=""
+                            src="https://images.unsplash.com/photo-1503602642458-232111445657?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+                            alt="product"
                         />
                     </div>
                     <div className="as-nav-for__first-slider">
                         <img
-                            src="https://images.unsplash.com/photo-1659535635086-18d69d56d0a4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80"
-                            alt=""
+                            src="https://images.unsplash.com/photo-1517705008128-361805f42e86?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1087&q=80"
+                            alt="product"
                         />
                     </div>
                     <div className="as-nav-for__first-slider">
                         <img
-                            src="https://images.unsplash.com/photo-1659535635086-18d69d56d0a4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80"
-                            alt=""
+                            src="https://images.unsplash.com/photo-1507904953637-96429a46671a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
+                            alt="product"
                         />
                     </div>
                     <div className="as-nav-for__first-slider">
                         <img
-                            src="https://images.unsplash.com/photo-1659535635086-18d69d56d0a4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80"
-                            alt=""
+                            src="https://images.unsplash.com/photo-1601366533287-5ee4c763ae4e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80"
+                            alt="product"
+                        />
+                    </div>
+                    <div className="as-nav-for__first-slider">
+                        <img
+                            src="https://images.unsplash.com/photo-1619596662481-085e45d69762?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
+                            alt="product"
+                        />
+                    </div>
+                    <div className="as-nav-for__first-slider">
+                        <img
+                            src="https://images.unsplash.com/photo-1622147681210-d7da05b4a7d7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80"
+                            alt="product"
                         />
                     </div>
                 </Slider>
@@ -99,32 +111,44 @@ export default class AsNavFor extends Component {
                 >
                     <div className="as-nav-for__second-slider">
                         <img
-                            src="https://images.unsplash.com/photo-1659542226430-006adbd62f0f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80"
-                            alt=""
+                            src="https://images.unsplash.com/photo-1592078615290-033ee584e267?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
+                            alt="product"
                         />
                     </div>
                     <div className="as-nav-for__second-slider">
                         <img
-                            src="https://images.unsplash.com/photo-1659535635086-18d69d56d0a4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80"
-                            alt=""
+                            src="https://images.unsplash.com/photo-1503602642458-232111445657?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+                            alt="product"
                         />
                     </div>
                     <div className="as-nav-for__second-slider">
                         <img
-                            src="https://images.unsplash.com/photo-1659535635086-18d69d56d0a4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80"
-                            alt=""
+                            src="https://images.unsplash.com/photo-1517705008128-361805f42e86?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1087&q=80"
+                            alt="product"
                         />
                     </div>
                     <div className="as-nav-for__second-slider">
                         <img
-                            src="https://images.unsplash.com/photo-1659535635086-18d69d56d0a4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80"
-                            alt=""
+                            src="https://images.unsplash.com/photo-1507904953637-96429a46671a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
+                            alt="product"
                         />
                     </div>
                     <div className="as-nav-for__second-slider">
                         <img
-                            src="https://images.unsplash.com/photo-1659535635086-18d69d56d0a4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80"
-                            alt=""
+                            src="https://images.unsplash.com/photo-1601366533287-5ee4c763ae4e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80"
+                            alt="product"
+                        />
+                    </div>
+                    <div className="as-nav-for__second-slider">
+                        <img
+                            src="https://images.unsplash.com/photo-1619596662481-085e45d69762?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
+                            alt="product"
+                        />
+                    </div>
+                    <div className="as-nav-for__second-slider">
+                        <img
+                            src="https://images.unsplash.com/photo-1622147681210-d7da05b4a7d7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80"
+                            alt="product"
                         />
                     </div>
                 </Slider>

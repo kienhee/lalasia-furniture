@@ -1,3 +1,9 @@
+.active {
+    color: $main-color;
+    font-weight: 600;
+
+}
+
 .container {
     max-width: 1270px;
     padding: 0 0.833rem; //15px
@@ -25,6 +31,7 @@
     background-color: #000;
     opacity: 0.5;
     display: none;
+    z-index: 1;
 }
 
 .show-overlay {
@@ -47,6 +54,11 @@
 
 .col-50 {
     width: 100%;
+}
+
+.psf {
+    transition: all 0.5s linear;
+    position: unset !important;
 }
 
 .input__search {
@@ -72,6 +84,11 @@
         font-size: 1rem;
         color: #afadb5;
     }
+}
+
+.content-error {
+    font-size: 20px;
+    font-weight: 500;
 }
 
 @media only screen and (max-width: 46.188rem) {

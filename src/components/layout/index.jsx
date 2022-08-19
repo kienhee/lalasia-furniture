@@ -1,20 +1,25 @@
-import { useState } from "react";
-import { Outlet, Link } from "react-router-dom";
+import { useState, useEffect } from "react";
+import { Outlet, NavLink, Link, useLocation } from "react-router-dom";
+
 import "./layout.scss";
 export default function Layout() {
     const [showMenuMobile, setShowMenuMobile] = useState(false);
+    let location = useLocation();
+    useEffect(() => {
+        setShowMenuMobile(false);
+    }, [location.pathname]);
     return (
         <>
-            <header className="header">
+            <header className={`header ${showMenuMobile && "psf"}`}>
                 <div className="container">
                     <nav className="navbar">
-                        <Link to="/" className="navbar__logo">
+                        <NavLink to="/" className="navbar__logo">
                             <img
                                 src={require("../../assets/images/logo.png")}
                                 alt="logo"
                             />
                             <h3>Lalasia</h3>
-                        </Link>
+                        </NavLink>
                         <div
                             className="navbar__menu-mobile"
                             onClick={() => setShowMenuMobile(!showMenuMobile)}
@@ -37,46 +42,60 @@ export default function Layout() {
                                 <i className="bx bx-x"></i>
                             </div>
                             <li className="navbar__item">
-                                <Link to="/" className="navbar__link">
+                                <NavLink to="/" className="navbar__NavLink ">
                                     Home
-                                </Link>
+                                </NavLink>
                             </li>
                             <li className="navbar__item">
-                                <Link to="/products" className="navbar__link">
+                                <NavLink
+                                    to="/products"
+                                    className="navbar__NavLink "
+                                >
                                     Products
-                                </Link>
+                                </NavLink>
                             </li>
                             <li className="navbar__item">
-                                <Link to="/services" className="navbar__link">
+                                <NavLink
+                                    to="/services"
+                                    className="navbar__NavLink "
+                                >
                                     Services
-                                </Link>
+                                </NavLink>
                             </li>
                             <li className="navbar__item">
-                                <Link to="#" className="navbar__link">
+                                <Link to="#" className="navbar__NavLink ">
                                     Article
                                 </Link>
                             </li>
                             <li className="navbar__item">
-                                <Link to="#" className="navbar__link">
+                                <Link to="#" className="navbar__NavLink ">
                                     About Us
                                 </Link>
                             </li>
                             <ul className="navbar__futures">
                                 <li className="navbar__bag">
-                                    <i className="bx bx-shopping-bag"></i>
+                                    <Link to="/bag">
+                                        <i className="bx bx-shopping-bag"></i>
+                                    </Link>
                                 </li>
-                                <li className="navbar__user">
-                                    <i className="bx bx-user"></i>
-                                </li>
+                                {/* <li className="navbar__user">
+                                    <Link to="/user">
+                                        <i className="bx bx-user"></i>
+                                    </Link>
+                                </li> */}
                             </ul>
                         </ul>
                         <ul className="navbar__futures">
                             <li className="navbar__bag">
-                                <i className="bx bx-shopping-bag"></i>
+                                <Link to="/bag">
+                                    <i className="bx bx-shopping-bag"></i>
+                                </Link>
                             </li>
-                            <li className="navbar__user">
-                                <i className="bx bx-user"></i>
-                            </li>
+                            {/* <li className="navbar__user">
+                                <Link to="/user">
+                                    <i className="bx bx-user"></i>
+                                </Link>
+                            </li> */}
                         </ul>
                     </nav>
                 </div>
@@ -85,17 +104,19 @@ export default function Layout() {
                 className={showMenuMobile ? "overlay show-overlay" : " overlay"}
                 onClick={() => setShowMenuMobile(!showMenuMobile)}
             ></div>
-            <Outlet />
+            <main>
+                <Outlet />
+            </main>
             <footer className="footer">
                 <div className="footer__container container">
                     <div className="footer__left">
-                        <Link to="/" className="navbar__logo">
+                        <NavLink to="/" className="navbar__logo">
                             <img
                                 src={require("../../assets/images/logo.png")}
                                 alt="logo"
                             />
                             <h3>Lalasia</h3>
-                        </Link>
+                        </NavLink>
                         <p>
                             Lalasia is digital agency that help you make better{" "}
                             <br />

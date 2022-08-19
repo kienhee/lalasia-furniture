@@ -7,6 +7,8 @@ import Home from "./pages/Home";
 import Product from "./pages/Product";
 import Services from "./pages/Services";
 import ProductDetail from "./pages/ProductDetail";
+import Bag from "./pages/Bag";
+import NoPage from "./pages/NoPage";
 function App() {
     return (
         <div className="App">
@@ -15,9 +17,13 @@ function App() {
                     <Route path="/" element={<Layout />}>
                         <Route index element={<Home />} />
                         <Route path="products" element={<Product />} />
-                        <Route path="products/:id" element={<ProductDetail />} />
+                        <Route
+                            path="products/:id"
+                            element={<ProductDetail />}
+                        />
                         <Route path="services" element={<Services />} />
-                        {/* <Route path="*" element={<NoPage />} /> */}
+                        <Route path="bag" element={<Bag />} />
+                        <Route path="*" element={<NoPage />} />
                     </Route>
                 </Routes>
             </BrowserRouter>
