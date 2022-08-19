@@ -23,7 +23,7 @@ function App() {
                         />
                         <Route path="services" element={<Services />} />
                         <Route path="bag" element={<Bag />} />
-                        <Route path="*" element={<NoPage />} />
+                        <Route path="404" element={<NoPage />} />
                     </Route>
                 </Routes>
             </BrowserRouter>

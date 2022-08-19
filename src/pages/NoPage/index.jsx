@@ -1,5 +1,6 @@
 import React from "react";
 import "./NoPage.scss";
+import { Link } from "react-router-dom";
 export default function NoPage() {
     return (
         <>
@@ -13,7 +14,7 @@ export default function NoPage() {
                         </div>
                         <h1>oops!</h1>
                         <h2>Error 404 : Page Not Found</h2>
-                        <a href="/">Home</a>
+                        <Link to="/">Home</Link>
                         <div class="notfound-social">
                             <a
                                 href="https://www.facebook.com/"

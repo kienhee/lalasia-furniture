@@ -63,7 +63,7 @@ export default function Layout() {
                                 </NavLink>
                             </li>
                             <li className="navbar__item">
-                                <Link to="#" className="navbar__NavLink ">
+                                <Link to="/404" className="navbar__NavLink ">
                                     Article
                                 </Link>
                             </li>

@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import TitleLarge from "../../components/TitleLarge";
 import "./product.scss";
 import { v4 as uuidv4 } from "uuid";
-
+import { Link } from "react-router-dom";
 export default function Product() {
     const settings = {
         dots: true,
@@ -171,25 +171,25 @@ export default function Product() {
             <div className="layout-product container">
                 {fakeProductItems.map((item) => (
                     <div className="layout-product__item" key={item.id}>
-                        <a
-                            href="/products/id"
+                        <Link
+                            to="/products/id"
                             className="layout-product__item-img"
                         >
                             <img src={item.image} alt="product item" />
-                        </a>
+                        </Link>
                         <div className="layout-product__item-content">
-                            <a
-                                href="/products/id"
+                            <Link
+                                to="/products/id"
                                 className="layout-product__item-category paragraph-color"
                             >
                                 {item.category}
-                            </a>
-                            <a
-                                href="/products/id"
+                            </Link>
+                            <Link
+                                to="/products/id"
                                 className="layout-product__item-name"
                             >
                                 {item.name}
-                            </a>
+                            </Link>
                             <p className="layout-product__item-description paragraph-color">
                                 {item.description}
                             </p>

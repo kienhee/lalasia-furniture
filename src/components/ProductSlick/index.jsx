@@ -93,18 +93,18 @@ export default function ProductSlick() {
                                 <img src={product.image} alt="product item" />
                             </Link>
                             <div className="product-slick__item-content">
-                                <a
-                                    href="/products/id"
+                                <Link
+                                    to="/products/id"
                                     className="product-slick__item-category paragraph-color"
                                 >
                                     {product.category}
-                                </a>
-                                <a
-                                    href="/products/id"
+                                </Link>
+                                <Link
+                                    to="/products/id"
                                     className="product-slick__item-name"
                                 >
                                     {product.name}
-                                </a>
+                                </Link>
                                 <p className="product-slick__item-description paragraph-color">
                                     {product.description}
                                 </p>
